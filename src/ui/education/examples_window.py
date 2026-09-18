@@ -41,7 +41,7 @@ class ExamplesWindow(QMainWindow):
 
         title_layout = QVBoxLayout()
 
-        title = QLabel("🧪 EJEMPLOS PRÁCTICOS")
+        title = QLabel("EJEMPLOS PRÁCTICOS")
         title.setObjectName("title")
 
         subtitle = QLabel(
@@ -72,27 +72,27 @@ class ExamplesWindow(QMainWindow):
 
         tabs.addTab(
             self.create_example_power(),
-            "⚡ Potencia"
+            "Potencia"
         )
 
         tabs.addTab(
             self.create_example_torque(),
-            "💪 Torque"
+            "Torque"
         )
 
         tabs.addTab(
             self.create_example_gearbox(),
-            "⚙ Reducción"
+            "Reducción"
         )
 
         tabs.addTab(
             self.create_example_efficiency(),
-            "📈 Eficiencia"
+            "Eficiencia"
         )
 
         tabs.addTab(
             self.create_complete_example(),
-            "🚀 Caso completo"
+            "Caso completo"
         )
 
         main_layout.addWidget(tabs)
@@ -117,7 +117,7 @@ class ExamplesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>⚡ Calcular potencia eléctrica</h2>
+        <h2>Calcular potencia eléctrica</h2>
 
         <p>
         Supongamos que tenemos un motor conectado a:
@@ -177,7 +177,7 @@ class ExamplesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>💪 Calcular torque del motor</h2>
+        <h2>Calcular torque del motor</h2>
 
         <p>
         Datos:
@@ -320,7 +320,7 @@ class ExamplesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>📈 Aplicar eficiencia a la transmisión</h2>
+        <h2>Aplicar eficiencia a la transmisión</h2>
 
         <p>
         Supongamos que:
@@ -385,7 +385,7 @@ class ExamplesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>🚀 Simulación completa</h2>
+        <h2>Simulación completa</h2>
 
         <h3>Datos del motor</h3>
 

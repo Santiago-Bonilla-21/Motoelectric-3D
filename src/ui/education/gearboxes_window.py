@@ -72,27 +72,27 @@ class GearboxesWindow(QMainWindow):
 
         tabs.addTab(
             self.create_introduction_tab(),
-            "📖 Introducción"
+            "Introducción"
         )
 
         tabs.addTab(
             self.create_components_tab(),
-            "⚙ Componentes"
+            "Componentes"
         )
 
         tabs.addTab(
             self.create_operation_tab(),
-            "🔄 Funcionamiento"
+            "Funcionamiento"
         )
 
         tabs.addTab(
             self.create_ratio_tab(),
-            "📐 Relación"
+            "Relación"
         )
 
         tabs.addTab(
             self.create_variables_tab(),
-            "📊 Variables"
+            "Variables"
         )
 
         main_layout.addWidget(tabs)
@@ -120,7 +120,7 @@ class GearboxesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>⚙ Caja reductora</h2>
+        <h2>Caja reductora</h2>
 
         <p>
         Una <b>caja reductora</b> es un sistema mecánico
@@ -186,7 +186,7 @@ class GearboxesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>🔩 Elementos de una caja reductora</h2>
+        <h2>Elementos de una caja reductora</h2>
 
         <p>
         Una caja reductora está formada por diferentes
@@ -194,14 +194,14 @@ class GearboxesWindow(QMainWindow):
         el movimiento del motor hacia la carga.
         </p>
 
-        <h3>⚙ Engranaje de entrada</h3>
+        <h3>Engranaje de entrada</h3>
 
         <p>
         Es el engranaje conectado al eje del motor.
         Recibe el movimiento y la potencia de entrada.
         </p>
 
-        <h3>⚙ Engranaje de salida</h3>
+        <h3>Engranaje de salida</h3>
 
         <p>
         Es el engranaje que transmite el movimiento hacia
@@ -209,7 +209,7 @@ class GearboxesWindow(QMainWindow):
         directamente en la relación de transmisión.
         </p>
 
-        <h3>🔄 Ejes</h3>
+        <h3>Ejes</h3>
 
         <p>
         Los ejes soportan los engranajes y permiten transmitir
@@ -217,21 +217,21 @@ class GearboxesWindow(QMainWindow):
         componentes.
         </p>
 
-        <h3>🛢 Lubricación</h3>
+        <h3>Lubricación</h3>
 
         <p>
         El lubricante reduce la fricción y el desgaste entre
         las superficies de los engranajes.
         </p>
 
-        <h3>🛡 Carcasa</h3>
+        <h3>Carcasa</h3>
 
         <p>
         Protege los componentes internos y mantiene los
         elementos correctamente posicionados.
         </p>
 
-        <h3>🔩 Rodamientos</h3>
+        <h3>Rodamientos</h3>
 
         <p>
         Permiten que los ejes giren con menor fricción y
@@ -267,7 +267,7 @@ class GearboxesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>🔄 Principio de funcionamiento</h2>
+        <h2>Principio de funcionamiento</h2>
 
         <p>
         El funcionamiento de una caja reductora se basa en
@@ -352,7 +352,7 @@ class GearboxesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>📐 Relación de transmisión</h2>
+        <h2>Relación de transmisión</h2>
 
         <p>
         La relación de transmisión permite determinar cómo
@@ -446,9 +446,9 @@ class GearboxesWindow(QMainWindow):
         content.setReadOnly(True)
 
         content.setHtml("""
-        <h2>📊 Variables utilizadas en la simulación</h2>
+        <h2>Variables utilizadas en la simulación</h2>
 
-        <h3>⚙ Número de dientes</h3>
+        <h3>Número de dientes</h3>
 
         <p>
         Representa la cantidad de dientes presentes en cada
@@ -456,28 +456,28 @@ class GearboxesWindow(QMainWindow):
         transmisión.
         </p>
 
-        <h3>🔄 RPM de entrada</h3>
+        <h3>RPM de entrada</h3>
 
         <p>
         Representa la velocidad de rotación proporcionada por
         el motor al sistema de transmisión.
         </p>
 
-        <h3>🔄 RPM de salida</h3>
+        <h3>RPM de salida</h3>
 
         <p>
         Representa la velocidad de rotación disponible después
         de pasar por la caja reductora.
         </p>
 
-        <h3>💪 Torque de entrada</h3>
+        <h3>Torque de entrada</h3>
 
         <p>
         Es el torque proporcionado por el motor al eje de
         entrada.
         </p>
 
-        <h3>💪 Torque de salida</h3>
+        <h3>Torque de salida</h3>
 
         <p>
         Es el torque disponible en el eje de salida después
@@ -485,14 +485,14 @@ class GearboxesWindow(QMainWindow):
         eficiencia.
         </p>
 
-        <h3>📐 Relación de transmisión</h3>
+        <h3>Relación de transmisión</h3>
 
         <p>
         Permite determinar cuánto se reduce la velocidad y
         cuánto se incrementa el torque.
         </p>
 
-        <h3>📈 Eficiencia</h3>
+        <h3>Eficiencia</h3>
 
         <p>
         Representa la proporción de potencia que se conserva
@@ -501,7 +501,7 @@ class GearboxesWindow(QMainWindow):
         y otros factores mecánicos.
         </p>
 
-        <h3>🔧 Ejemplo completo</h3>
+        <h3>Ejemplo completo</h3>
 
         <p>
         Motor: <b>1800 RPM</b>

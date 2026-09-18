@@ -41,7 +41,7 @@ class ConceptsWindow(QMainWindow):
 
         title_layout = QVBoxLayout()
 
-        title = QLabel("📐 CONCEPTOS BÁSICOS")
+        title = QLabel("CONCEPTOS BÁSICOS")
         title.setObjectName("title")
 
         subtitle = QLabel(
@@ -72,27 +72,27 @@ class ConceptsWindow(QMainWindow):
 
         tabs.addTab(
             self.create_power_tab(),
-            "⚡ Potencia"
+            "Potencia"
         )
 
         tabs.addTab(
             self.create_torque_tab(),
-            "💪 Torque"
+            "Torque"
         )
 
         tabs.addTab(
             self.create_rpm_tab(),
-            "🔄 RPM"
+            "RPM"
         )
 
         tabs.addTab(
             self.create_voltage_current_tab(),
-            "🔌 V / A"
+            "V / A"
         )
 
         tabs.addTab(
             self.create_efficiency_tab(),
-            "📈 Eficiencia"
+            "Eficiencia"
         )
 
         main_layout.addWidget(tabs)
@@ -175,7 +175,7 @@ class ConceptsWindow(QMainWindow):
         widget = QWidget()
         layout = QVBoxLayout()
 
-        title = QLabel("💪 Torque")
+        title = QLabel("Torque")
         title.setObjectName("sectionTitle")
 
         content = QTextEdit()
@@ -259,7 +259,7 @@ class ConceptsWindow(QMainWindow):
         widget = QWidget()
         layout = QVBoxLayout()
 
-        title = QLabel("🔄 RPM")
+        title = QLabel("RPM")
         title.setObjectName("sectionTitle")
 
         content = QTextEdit()
@@ -394,7 +394,7 @@ class ConceptsWindow(QMainWindow):
         widget = QWidget()
         layout = QVBoxLayout()
 
-        title = QLabel("📈 Eficiencia")
+        title = QLabel("Eficiencia")
         title.setObjectName("sectionTitle")
 
         content = QTextEdit()

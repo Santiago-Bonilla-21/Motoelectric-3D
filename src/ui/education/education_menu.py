@@ -45,7 +45,7 @@ class EducationMenu(QMainWindow):
 
         # Motores
         motor_button = QPushButton(
-            "⚡\n\nMOTORES ELÉCTRICOS\n\n"
+            "\n\nMOTORES ELÉCTRICOS\n\n"
             "Funcionamiento y componentes"
         )
 
@@ -54,7 +54,7 @@ class EducationMenu(QMainWindow):
 
         # Cajas
         gearbox_button = QPushButton(
-            "⚙\n\nCAJAS REDUCTORAS\n\n"
+            "\n\nCAJAS REDUCTORAS\n\n"
             "Engranajes y transmisión"
         )
 
@@ -63,7 +63,7 @@ class EducationMenu(QMainWindow):
 
         # Conceptos
         concepts_button = QPushButton(
-            "📐\n\nCONCEPTOS BÁSICOS\n\n"
+            "\n\nCONCEPTOS BÁSICOS\n\n"
             "RPM, torque, potencia y eficiencia"
         )
 
@@ -72,7 +72,7 @@ class EducationMenu(QMainWindow):
 
         # Ejemplos
         examples_button = QPushButton(
-            "🧪\n\nEJEMPLOS PRÁCTICOS\n\n"
+            "\n\nEJEMPLOS PRÁCTICOS\n\n"
             "Aprende mediante ejercicios"
         )
 
@@ -81,7 +81,7 @@ class EducationMenu(QMainWindow):
 
         # Quiz
         quiz_button = QPushButton(
-            "📝\n\nQUIZ\n\n"
+            "\n\nQUIZ\n\n"
             "Comprueba tus conocimientos"
         )
 
