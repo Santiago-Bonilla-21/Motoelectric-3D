@@ -2,14 +2,27 @@ import sys
 
 from PySide6.QtWidgets import QApplication
 
-from src.ui.main_window import MainWindow
+from src.database.database import (
+    initialize_database,
+    create_default_user
+)
+
+from src.ui.login_window import LoginWindow
 
 
 def main():
 
+    # Inicializar base de datos
+    initialize_database()
+
+    # Crear usuario inicial
+    create_default_user()
+
+    # Crear aplicación
     app = QApplication(sys.argv)
 
-    window = MainWindow()
+    # Mostrar login
+    window = LoginWindow()
     window.show()
 
     sys.exit(app.exec())

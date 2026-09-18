@@ -209,25 +209,25 @@ class MainWindow(QMainWindow):
 
         self.setStyleSheet("""
             QMainWindow {
-                background-color: #d1d5db;
+                background-color: #00008B;
             }
 
             QLabel#title {
                 font-size: 28px;
                 font-weight: bold;
-                color: #6495ED;
+                color: #DAA520;
                 padding-top: 15px;
             }
 
             QLabel#subtitle {
                 font-size: 14px;
-                color: #6495ED;
+                color: #F8F8FF;
                 padding-bottom: 15px;
             }
 
             QGroupBox {
-                background-color: #A9A9A9;
-                border: 1px solid #d1d5db;
+                background-color: #2F4F4F;
+                border: 1px solid #DAA520;
                 border-radius: 8px;
                 margin-top: 10px;
                 padding: 15px;
@@ -244,18 +244,18 @@ class MainWindow(QMainWindow):
             QLineEdit {
                 background-color: #f9fafb;
                 color: #1e40af;
-                border: 2px solid #93c5fd;
+                border: 2px solid #DAA520;
                 border-radius: 6px;
                 padding: 8px;
                 font-size: 14px;
             }
 
             QLineEdit:focus {
-                border: 1px solid #2563eb;
+                border: 1px solid #DAA520;
             }
 
             QPushButton {
-                background-color: #2563eb;
+                background-color: #DAA520;
                 color: white;
                 padding: 12px;
                 border: none;
