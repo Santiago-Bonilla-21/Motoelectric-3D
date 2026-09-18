@@ -38,20 +38,20 @@ class MainMenu(QMainWindow):
         subtitle.setObjectName("subtitle")
 
         description = QLabel(
-            "Seleccione el módulo que desea utilizar."
+            "¿Que deseas realizar?"
         )
         description.setObjectName("description")
 
         simulation_button = QPushButton(
-            "⚙  SIMULAR MOTOR"
+            "  SIMULAR MOTOR"
         )
 
         education_button = QPushButton(
-            "📚  MÓDULO EDUCATIVO"
+            "  MÓDULO EDUCATIVO"
         )
 
         logout_button = QPushButton(
-            "🚪  CERRAR SESIÓN"
+            "  CERRAR SESIÓN"
         )
 
         simulation_button.clicked.connect(
@@ -90,9 +90,9 @@ class MainMenu(QMainWindow):
 
     def open_education(self):
 
-        from src.ui.education_window import EducationWindow
+        from src.ui.education.education_menu import EducationMenu
 
-        self.education_window = EducationWindow()
+        self.education_window = EducationMenu()
         self.education_window.show()
 
     def logout(self):

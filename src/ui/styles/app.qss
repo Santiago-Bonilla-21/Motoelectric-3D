@@ -148,3 +148,109 @@ QPushButton:hover {
 QPushButton:pressed {
     background-color: #163da8;
 }
+
+/* ==========================================
+   MÓDULO EDUCATIVO
+   ========================================== */
+
+QPushButton#educationCard {
+    min-height: 150px;
+    background-color: #2F4F4F;
+    color: #F8F8FF;
+    border: 2px solid #DAA520;
+    border-radius: 12px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+QPushButton#educationCard:hover {
+    background-color: #365858;
+    border: 2px solid #F0C040;
+}
+
+QPushButton#educationCard:pressed {
+    background-color: #243F3F;
+}
+
+
+/* ==========================================
+   BOTÓN VOLVER
+   ========================================== */
+
+QPushButton#backButton {
+    background-color: transparent;
+    color: #DAA520;
+    border: 1px solid #DAA520;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+QPushButton#backButton:hover {
+    background-color: #DAA520;
+    color: #00008B;
+}
+
+/* ==========================================
+   MÓDULO MOTORES ELÉCTRICOS
+   ========================================== */
+
+QTabWidget#educationTabs {
+    background-color: #2F4F4F;
+}
+
+QTabWidget::pane {
+    border: 1px solid #DAA520;
+    border-radius: 8px;
+    background-color: #2F4F4F;
+}
+
+QTabBar::tab {
+    background-color: #243F3F;
+    color: #F8F8FF;
+    border: 1px solid #DAA520;
+    padding: 12px 18px;
+    margin-right: 2px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+QTabBar::tab:selected {
+    background-color: #DAA520;
+    color: #00008B;
+    font-weight: bold;
+}
+
+QTabBar::tab:hover {
+    background-color: #365858;
+}
+
+QLabel#sectionTitle {
+    color: #DAA520;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+QTextEdit {
+    background-color: #F8F8FF;
+    color: #111827;
+    border: 1px solid #DAA520;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+QPushButton#backButton {
+    background-color: #DAA520;
+    color: #00008B;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 18px;
+    font-weight: bold;
+}
+
+QPushButton#backButton:hover {
+    background-color: #F0C040;
+}
